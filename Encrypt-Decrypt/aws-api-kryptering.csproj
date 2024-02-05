@@ -4,7 +4,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <RootNamespace>aws_api_kryptering</RootNamespace>
+    <RootNamespace>Caesar</RootNamespace>
   </PropertyGroup>
-
+  
 </Project>
