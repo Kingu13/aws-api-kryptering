@@ -27,7 +27,7 @@ jobs:
       - name: Deploy to aws EB
         uses: einaregilsson/beanstalk-deploy@v21
         with: 
-          aws_access_key: ${{ secrets.AWS_ENCRYPT_ACESS_KEY }}
+          aws_access_key: ${{ secrets.AWS_ENCRYPT_ACCESS_KEY }}
           aws_secret_key: ${{ secrets.AWS_ENCRYPT_SECRET_ACCESS_KEY }}
           application_name: caesar-cipher-api
           environment_name: Caesar-cipher-api-env
